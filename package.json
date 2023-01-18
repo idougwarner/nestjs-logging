@@ -1,0 +1,60 @@
+{
+  "name": "@teamup/nestjs-logging-interceptor",
+  "version": "2.1.14",
+  "description": "A simple NestJS interceptor to log input/output requests",
+  "keywords": [
+    "nestjs",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "diephil",
+  "homepage": "https://github.com/algoan/nestjs-components/tree/master/packages/nestjs-logging-interceptor#readme",
+  "license": "ISC",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algoan/nestjs-components.git"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "lint": "tslint ./src/*.ts{,x} ./src/**/*.ts{,x} --project tsconfig.json -e \"**/*.test.ts\""
+  },
+  "bugs": {
+    "url": "https://github.com/algoan/nestjs-components/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@nestjs/common": ">=5",
+    "@nestjs/core": ">=5",
+    "express": ">=4",
+    "rxjs": ">=6"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^8.2.4",
+    "@nestjs/core": "^8.2.4",
+    "@nestjs/microservices": "^8.2.4",
+    "@nestjs/platform-express": "^8.2.4",
+    "@nestjs/testing": "^8.2.4",
+    "@types/express": "^4.17.13",
+    "@types/format-link-header": "^2.1.0",
+    "@types/jest": "^27.4.0",
+    "@types/lodash": "^4.14.178",
+    "@types/parse-link-header": "^1.0.0",
+    "@types/supertest": "^2.0.11",
+    "express": "^4.17.2",
+    "typescript": "^4.5.4",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
