@@ -1,0 +1,1 @@
+{"version":3,"file":"core.module.js","sourceRoot":"","sources":["../../../../test/test-app/core/core.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,uCAA+C;AAC/C,sCAAkD;AAa3C,IAAM,UAAU,GAAhB,MAAM,UAAU;CAAG,CAAA;AAAb,UAAU;IARtB,IAAA,eAAM,EAAC;QACN,SAAS,EAAE;YACT;gBACE,OAAO,EAAE,sBAAe;gBACxB,QAAQ,EAAE,wBAAkB;aAC7B;SACF;KACF,CAAC;GACW,UAAU,CAAG;AAAb,gCAAU"}
